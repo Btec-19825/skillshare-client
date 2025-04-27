@@ -36,7 +36,7 @@ function PostForm({ onPostCreated }) {
     }
 
     try {
-      await api.post('/posts', {
+      await api.post('/posts', {  
         username,
         title,
         description,

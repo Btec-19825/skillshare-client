@@ -100,7 +100,7 @@ function PostList({ user }) {
     await api.delete(`/posts/${postId}/comments/${commentId}`);
     fetchPosts();
   };
-
+    
   const handleReaction = async (postId, action) => {
     try {
       await api.put(`/posts/${postId}/${action}`, { username: user });

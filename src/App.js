@@ -22,7 +22,7 @@ function App() {
   // if (!user && location !== '/login') {
   //   window.location.href = '/';
   // }
-
+  
   return (
     <Router>
       {user && (
