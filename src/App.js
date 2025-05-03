@@ -9,7 +9,7 @@ import LearningPlanList from './components/LearningPlanList';
 import Login from './components/Login';
 
 function App() {
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState(null);  
 
   useEffect(() => {
     fetch("http://localhost:8080/user", { credentials: "include" })

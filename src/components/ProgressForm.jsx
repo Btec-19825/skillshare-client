@@ -51,7 +51,7 @@ function ProgressForm({ onProgressAdded }) {
 
           <div className="mb-3">
             <select
-              className="form-select"
+              className="form-select"  
               value={type}
               onChange={e => setType(e.target.value)}
               required

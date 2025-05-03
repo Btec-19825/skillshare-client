@@ -43,7 +43,7 @@ function ProgressList() {
       fetchProgress();
     } catch (err) {
       alert("Failed to update progress.");
-    }
+    }  
   };
 
   useEffect(() => {
