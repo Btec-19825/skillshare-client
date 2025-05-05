@@ -15,7 +15,7 @@ function App() {
     fetch("http://localhost:8080/user", { credentials: "include" })
       .then(res => res.ok ? res.json() : Promise.reject())
       .then(data => setUser(data.name))
-      .catch(() => setUser(null));
+      .catch(() => setUser(null));  
   }, []);
 
   // const location = window.location.pathname;

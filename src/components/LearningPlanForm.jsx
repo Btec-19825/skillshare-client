@@ -26,7 +26,7 @@ function LearningPlanForm({ onPlanCreated }) {
   };
 
   return (
-    <div className="card mb-4 shadow-sm">
+    <div className="card mb-4 shadow-sm">    
       <div className="card-body">
         <h4 className="card-title">Create Learning Plan</h4>
         <form onSubmit={handleSubmit}>

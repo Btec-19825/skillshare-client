@@ -18,7 +18,7 @@ function LearningPlanList() {
 
   const handleDelete = async (id) => {
     await api.delete(`/plans/${id}`);
-    fetchPlans();
+    fetchPlans();   
   };
 
   const handleEdit = (plan) => {
