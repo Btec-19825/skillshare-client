@@ -97,7 +97,7 @@ function PostList({ user }) {
   };
 
   const handleCommentDelete = async (postId, commentId) => {   
-    await api.delete(`/posts/${postId}/comments/${commentId}`);
+    await api.delete(`/posts/${postId}/comments/${commentId}`);   
     fetchPosts();
   };
     
