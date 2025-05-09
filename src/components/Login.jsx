@@ -7,7 +7,7 @@ function Login() {
       <a href="http://localhost:8080/oauth2/authorization/google" className="btn btn-primary">
         Login with Google
       </a>
-    </div>
+    </div>   
   );
 }
 
